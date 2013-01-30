@@ -1,4 +1,5 @@
-```usage: dnsscan.py [-h] [-t TIMEOUT] [-u URL] ...
+```
+usage: dnsscan.py [-h] [-t TIMEOUT] [-u URL] ...
 
 Scan IPv4 prefixes for DNS resolvers
 
