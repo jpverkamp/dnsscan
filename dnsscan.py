@@ -38,7 +38,7 @@ def scan_prefix(prefix):
     resolver = dns.resolver.Resolver()
     resolver.timeout = args.timeout
 
-    target = args.hostname or 'google.com'
+    target = args.url or 'google.com'
 
     for ip in prefix_to_ips(prefix):
         resolver.nameservers = [ip]
