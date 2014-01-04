@@ -36,7 +36,7 @@ def scan_prefix(prefix):
     args = globals()['args']
 
     resolver = dns.resolver.Resolver()
-    resolver.timeout = args.timeout
+    resolver.lifetime = args.timeout
 
     target = args.url or 'google.com'
 
